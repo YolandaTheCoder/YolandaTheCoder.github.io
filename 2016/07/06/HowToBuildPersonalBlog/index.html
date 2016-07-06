@@ -5,26 +5,20 @@
   
   <title>Windows10下通过hexo和github搭建博客过程以及掉坑和填坑过程 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="搭建博客一方面要心细，一方面要看运气。在与同一时期一起搭建博客的同学交流的过程中，发现在按照hexo官方文档中的流程搭建的时候，会遇到各种各样的问题。本博客在展示详细流程的同时，解决在windows10下建博客时候遇到各种坑以及解决方案。
-需要的软件资源-Node.js-git
-安装过程安装Node.js  需要注意的是，Node.js不需要去download页面下载，这里下载到的版本是推荐版">
+  <meta name="description" content="搭建博客一方面要心细，一方面要看运气。在与同一时期一起搭建博客的同学交流的过程中，发现在按照hexo官方文档中的流程搭建的时候，会遇到各种各样的问题。本博客在展示详细流程的同时，解决在windows10下建博客时候遇到各种坑以及解决方案。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Windows10下通过hexo和github搭建博客过程以及掉坑和填坑过程">
 <meta property="og:url" content="http://yoursite.com/2016/07/06/HowToBuildPersonalBlog/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="搭建博客一方面要心细，一方面要看运气。在与同一时期一起搭建博客的同学交流的过程中，发现在按照hexo官方文档中的流程搭建的时候，会遇到各种各样的问题。本博客在展示详细流程的同时，解决在windows10下建博客时候遇到各种坑以及解决方案。
-需要的软件资源-Node.js-git
-安装过程安装Node.js  需要注意的是，Node.js不需要去download页面下载，这里下载到的版本是推荐版">
+<meta property="og:description" content="搭建博客一方面要心细，一方面要看运气。在与同一时期一起搭建博客的同学交流的过程中，发现在按照hexo官方文档中的流程搭建的时候，会遇到各种各样的问题。本博客在展示详细流程的同时，解决在windows10下建博客时候遇到各种坑以及解决方案。">
 <meta property="og:image" content="http://yoursite.com/../img/HowToBuildPersonalBlog/hexoInstall.jpg">
 <meta property="og:image" content="http://yoursite.com/../img/HowToBuildPersonalBlog/generate.png">
 <meta property="og:image" content="http://yoursite.com/../img/HowToBuildPersonalBlog/deploy.jpg">
 <meta property="og:image" content="http://yoursite.com/../img/HowToBuildPersonalBlog/fistBlog.jpg">
-<meta property="og:updated_time" content="2016-07-06T08:36:53.361Z">
+<meta property="og:updated_time" content="2016-07-06T08:38:03.914Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Windows10下通过hexo和github搭建博客过程以及掉坑和填坑过程">
-<meta name="twitter:description" content="搭建博客一方面要心细，一方面要看运气。在与同一时期一起搭建博客的同学交流的过程中，发现在按照hexo官方文档中的流程搭建的时候，会遇到各种各样的问题。本博客在展示详细流程的同时，解决在windows10下建博客时候遇到各种坑以及解决方案。
-需要的软件资源-Node.js-git
-安装过程安装Node.js  需要注意的是，Node.js不需要去download页面下载，这里下载到的版本是推荐版">
+<meta name="twitter:description" content="搭建博客一方面要心细，一方面要看运气。在与同一时期一起搭建博客的同学交流的过程中，发现在按照hexo官方文档中的流程搭建的时候，会遇到各种各样的问题。本博客在展示详细流程的同时，解决在windows10下建博客时候遇到各种坑以及解决方案。">
 <meta name="twitter:image" content="http://yoursite.com/../img/HowToBuildPersonalBlog/hexoInstall.jpg">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -96,7 +90,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>  搭建博客一方面要心细，一方面要看运气。在与同一时期一起搭建博客的同学交流的过程中，发现在按照<a href="https://hexo.io/docs/" target="_blank" rel="external">hexo官方文档</a>中的流程搭建的时候，会遇到各种各样的问题。本博客在展示详细流程的同时，解决在windows10下建博客时候遇到各种坑以及解决方案。</p>
+        <p>  搭建博客一方面要心细，一方面要看运气。在与同一时期一起搭建博客的同学交流的过程中，发现在按照<a href="https://hexo.io/docs/" target="_blank" rel="external">hexo官方文档</a>中的流程搭建的时候，会遇到各种各样的问题。本博客在展示详细流程的同时，解决在windows10下建博客时候遇到各种坑以及解决方案。<br><a id="more"></a></p>
 <h2 id="需要的软件资源"><a href="#需要的软件资源" class="headerlink" title="需要的软件资源"></a>需要的软件资源</h2><p>-<a href="https://nodejs.org/" target="_blank" rel="external">Node.js</a><br>-<a href="https://git-scm.com/" target="_blank" rel="external">git</a></p>
 <h2 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h2><h3 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h3><p>  需要注意的是，Node.js不需要去<a href="https://nodejs.org/en/download/" target="_blank" rel="external">download</a>页面下载，这里下载到的版本是推荐版本，直接在上面提到的网址中下载最新版本。个人体验是，当使用推荐版本的时候，不能成功安装Hexo。在安装Node.js的过程中会自动安装上npm。</p>
 <h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p>  按照正常步骤安装就可以。安装完成后会发现环境变量path中已经添加了Node.js和git的路径。</p>
@@ -122,7 +116,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/06/HowToBuildPersonalBlog/" data-id="ciqams4z700008gkzgc8987r7" class="article-share-link">Поделиться</a>
+      <a data-url="http://yoursite.com/2016/07/06/HowToBuildPersonalBlog/" data-id="ciqamtyxa0000ggkzjtoxyjmn" class="article-share-link">Поделиться</a>
       
       
     </footer>
